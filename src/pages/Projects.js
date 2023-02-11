@@ -7,7 +7,7 @@ import "../styles/Projects.css";
 function Projects() {
   return (
     <div className="projects my-5">
-      <h1> My Personal Projects</h1>
+      <h1 style={{color:"#3e497a"}}> My Projects</h1>
       <div className="projectList my-5">
         {ProjectList.map((project, idx) => {
           return (

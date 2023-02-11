@@ -10,7 +10,7 @@ hr{
   border-top: 5px dashed white;
 }
 
-.about {
+.about-home {
   width: 100%;
   height: calc(100vh - 100px);
   display: flex;
@@ -22,14 +22,14 @@ hr{
   /* color: #f0f0f0; */
 }
 
-.about h2 {
+.about-home h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 40px;
   color: #3e497a;
   height: 40px;
 }
 
-.about .prompt {
+.about-home .prompt {
   width: 40%;
   font-size: 25px;
 }
@@ -70,11 +70,11 @@ hr{
 }
 
 @media only screen and (max-width: 600px) {
-  .about h2 {
+  .about-home h2 {
     font-size: 40px;
   }
 
-  .about .prompt {
+  .about-home .prompt {
     margin-top: 10px;
     font-size: 20px;
     width: 80%;
@@ -91,8 +91,34 @@ hr{
     font-size: 30px;
   }
 }
+
+/* a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+} */
+
+a:visited {
+  color: #3e497a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: royalblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+/* a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+} */
+
 @media only screen and (max-width: 260px) {
-  .about h2 {
+  .about-home h2 {
     font-size: 30px;
   }
   .propmt p{

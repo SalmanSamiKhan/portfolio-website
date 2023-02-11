@@ -13,7 +13,7 @@ export const ProjectList = [
     url:"https://github.com/SalmanSamiKhan/keeper"
   },
   {
-    name: "Ecommerce Website",
+    name: "Ecommerce Site",
     image: Proj2,
     skills: "React, Node.js, MongoDB, Bootstrap",
     url:"https://github.com/SalmanSamiKhan/amazonia"

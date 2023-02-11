@@ -10,7 +10,7 @@ import WorkIcon from "@mui/icons-material/Work";
 function Experience() {
   return (
     <div className="experience my-5">
-    <h1 className="my-5 text-center">Academic Details</h1>
+    <h1 className="my-5 text-center" style={{color:"#3e497a"}}>Academic Details</h1>
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"

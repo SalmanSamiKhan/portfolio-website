@@ -72,12 +72,22 @@
     height: 300px;
   }
 }
-@media only screen and (max-width: 357px) {
+@media only screen and (max-width: 400px) {
   .projectList {
     width: 100%;
   }
   .projectItem {
     width: 200px;
     height: 200px;
+  }
+}
+@media only screen and (max-width: 270px) {
+  .projectList {
+    width: 100%;
+  }
+  .projectItem {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 100px;
   }
 }

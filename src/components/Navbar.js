@@ -14,6 +14,7 @@ function Navbar() {
 
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
+    <div className="icon">icon</div>
       <div className="toggleButton">
         <button
           onClick={() => {
@@ -26,8 +27,10 @@ function Navbar() {
       <div className="links">
         <Link to="/"> Home </Link>
         <Link to="/about"> About </Link>
+        <Link to="/skills"> Skills </Link>
         <Link to="/projects"> Projects </Link>
         <Link to="/experience"> Education </Link>
+        <Link to="https://drive.google.com/file/d/1Y1fAsfxyKMTai1MZICXC4rVgWuk4ZkJE/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Resume </Link>
       </div>
     </div>
   );

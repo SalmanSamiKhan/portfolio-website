@@ -10,10 +10,12 @@ function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
   return (
-    <div className="project">
-      <h1 className="mb-5"> {project.name}</h1>
+    <div className="project container">
+      <h1 className="mb-5 image mx-3"> {project.name}</h1>
+      <div className="image">
       <img src={project.image} />
-      <p className="my-5">
+      </div>
+      <p className="my-5 mx-3">
         <b>Skills:</b> {project.skills}
       </p>
       <Link to={project.url}>

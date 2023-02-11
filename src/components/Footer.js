@@ -9,17 +9,17 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <Link to={"https://twitter.com/SalmanSamiiKhan"}>
+        <Link to={"https://twitter.com/SalmanSamiiKhan"} target="_blank" rel="noopener noreferrer">
           <SiTwitter  />
         </Link>
-        <Link to={"https://www.facebook.com/salmansamikhan"}>
+        <Link to={"https://www.facebook.com/salmansamikhan"} target="_blank" rel="noopener noreferrer">
           <SiFacebook  />
         </Link>
-        <Link to={"https://www.linkedin.com/in/salman-sami-khan-69855a1a0/"}>
+        <Link to={"https://www.linkedin.com/in/salman-sami-khan-69855a1a0/"} target="_blank" rel="noopener noreferrer">
           <SiLinkedin />
         </Link>
       </div>
-      <p> &copy; {year} Salman</p>
+      <p> &copy; Salman {year}</p>
     </div>
   );
 }
