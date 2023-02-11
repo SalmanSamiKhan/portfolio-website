@@ -14,7 +14,6 @@ function Navbar() {
 
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
-    <div className="icon">icon</div>
       <div className="toggleButton">
         <button
           onClick={() => {
