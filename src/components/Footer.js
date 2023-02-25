@@ -19,7 +19,9 @@ function Footer() {
           <SiLinkedin />
         </Link>
       </div>
-      <p> &copy; Salman {year}</p>
+      <p>
+      <a href='https://github.com/SalmanSamiKhan' style={{textDecoration:'none', color:'white'}} >  <strong> © Salman Sami Khan </strong> </a>
+       {year}</p>
     </div>
   );
 }
