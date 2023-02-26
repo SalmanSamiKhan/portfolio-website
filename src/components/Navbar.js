@@ -29,7 +29,7 @@ function Navbar() {
         <Link to="/skills"> Skills </Link>
         <Link to="/projects"> Projects </Link>
         <Link to="/experience"> Education </Link>
-        <Link to="https://drive.google.com/file/d/1bCmjifzTbCKghSyPsvcPjaQPm1s0iG9r/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Resume </Link>
+        <Link to="https://drive.google.com/file/d/1iDtf3dUrfGGZcZF56NY3YWPG9b6yiPTi/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Resume </Link>
       </div>
     </div>
   );
